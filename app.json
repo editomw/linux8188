@@ -1,34 +1,34 @@
 {
     "name": "linux8188",
     "description": "linux8188",
-    "keywords": ["linux8188"],
+    "keywords": ["linux8188 linux driver"],
     "env": {
         "AA": {
-            "description": "³õ½×ÓÃ»§Ö»ĞèĞŞ¸ÄÒÔÏÂAUUIDµã»÷Ò³Ãæ×îºóµÄDeploy app°´Å¥¼´¿É¿ªÊ¼²¿Êğ",
-            "value": "Èç³öÏÖ´íÎó£¬Çë¼ì²é²ÎÊı¸ñÊ½»ò¶à³¢ÊÔ¼¸´Î¡£Ê¹ÓÃ×Ô¶¨Òå²ÎÊıÇëÎñ±ØÏÈ³ä·ÖÀí½âÆäº¬Òå"
+            "description": "åˆé˜¶ç”¨æˆ·åªéœ€ä¿®æ”¹ä»¥ä¸‹AUUIDç‚¹å‡»é¡µé¢æœ€åçš„Deploy appæŒ‰é’®å³å¯å¼€å§‹éƒ¨ç½²",
+            "value": "å¦‚å‡ºç°é”™è¯¯ï¼Œè¯·æ£€æŸ¥å‚æ•°æ ¼å¼æˆ–å¤šå°è¯•å‡ æ¬¡ã€‚ä½¿ç”¨è‡ªå®šä¹‰å‚æ•°è¯·åŠ¡å¿…å…ˆå……åˆ†ç†è§£å…¶å«ä¹‰"
         },
         "AUUID": {
-            "description": "UUID³äµ±¸÷¸öÅäÖÃµÄÂ·¾¶ºÍÕËºÅÃÜÂë£¬½¨ÒéĞŞ¸ÄºÍÍ×ÉÆ±£´æ,¿ÉÉú³ÉUUIDµÄÍøÕ¾: https://www.uuidgenerator.net",
+            "description": "UUIDå……å½“å„ä¸ªé…ç½®çš„è·¯å¾„å’Œè´¦å·å¯†ç ï¼Œå»ºè®®ä¿®æ”¹å’Œå¦¥å–„ä¿å­˜,å¯ç”ŸæˆUUIDçš„ç½‘ç«™: https://www.uuidgenerator.net",
             "value": "25f275ce-4c7a-4cba-8bb5-cb05e67ea9f8"
         },
         "CADDYIndexPage": {
-            "description": "×Ô¶¨ÒåCADDY²¿ÊğÍê³Éºóµã»÷ViewµÄÏÔÊ¾Ò³Ãæ£¬²Î¿¼£ºhttps://github.com/editomw/linux8188/blob/master/etc/CADDYIndexPage.md",
+            "description": "è‡ªå®šä¹‰CADDYéƒ¨ç½²å®Œæˆåç‚¹å‡»Viewçš„æ˜¾ç¤ºé¡µé¢ï¼Œå‚è€ƒï¼šhttps://github.com/editomw/linux8188/blob/master/etc/CADDYIndexPage.md",
             "value": "https://github.com/AYJCSGM/mikutap/archive/master.zip"
         },
         "CONFIGCADDY": {
-            "description": "×Ô¶¨ÒåÍøÂçµØÖ·¶ÁÈ¡ÅäÖÃÔËĞĞCADDY£¬²»ÊìÏ¤CADDYÅäÖÃµÄÇëÎğĞŞ¸Ä",
+            "description": "è‡ªå®šä¹‰ç½‘ç»œåœ°å€è¯»å–é…ç½®è¿è¡ŒCADDYï¼Œä¸ç†Ÿæ‚‰CADDYé…ç½®çš„è¯·å‹¿ä¿®æ”¹",
             "value": "https://raw.githubusercontent.com/editomw/linux8188/main/etc/Caddyfile"
         },
         "CONFIGXRAY": {
-            "description": "×Ô¶¨ÒåÍøÂçµØÖ·¶ÁÈ¡ÅäÖÃÔËĞĞxray£¬²»ÊìÏ¤xrayÅäÖÃµÄÇëÎğĞŞ¸Ä",
+            "description": "è‡ªå®šä¹‰ç½‘ç»œåœ°å€è¯»å–é…ç½®è¿è¡Œxrayï¼Œä¸ç†Ÿæ‚‰xrayé…ç½®çš„è¯·å‹¿ä¿®æ”¹",
             "value": "https://raw.githubusercontent.com/editomw/linux8188/main/etc/xray.json"
         },
         "ParameterSSENCYPT": {
-            "description": "SS¼ÓÃÜ·½Ê½£¬²é¿´Ö§³ÖĞ­Òé: https://www.v2fly.org/config/protocols/shadowsocks.html",
+            "description": "SSåŠ å¯†æ–¹å¼ï¼ŒæŸ¥çœ‹æ”¯æŒåè®®: https://www.v2fly.org/config/protocols/shadowsocks.html",
             "value": "chacha20-ietf-poly1305"
         },
         "StoreFiles": {
-            "description": "×Ô¶¨ÒåÍøÂçµØÖ·¶ÁÈ¡´æ´¢ÎÄ¼şÁĞ±í",
+            "description": "è‡ªå®šä¹‰ç½‘ç»œåœ°å€è¯»å–å­˜å‚¨æ–‡ä»¶åˆ—è¡¨",
             "value": "https://raw.githubusercontent.com/editomw/linux8188/main/etc/StoreFiles"
         }
     },
